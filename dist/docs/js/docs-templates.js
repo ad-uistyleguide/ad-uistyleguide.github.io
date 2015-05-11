@@ -35,10 +35,12 @@ angular.module('docsApp').run(['$templateCache', function($templateCache) {
     '              Source\n' +
     '            </div>\n' +
     '          </md-button>\n' +
+    '	<!-- UNCOMMENT TO ADD CODEPEN EDITOR TO ALL DEMO TOOLBARS\n' +
     '          <md-button ng-hide="{{exampleNotEditable}}" hide-sm ng-click="demoCtrl.editOnCodepen()">\n' +
     '            <md-icon md-svg-src="img/icons/codepen-logo.svg"></md-icon>\n' +
     '            Edit on codepen\n' +
     '          </md-button>\n' +
+    '	-->\n' +
     '        </div>\n' +
     '      </md-toolbar>\n' +
     '\n' +
