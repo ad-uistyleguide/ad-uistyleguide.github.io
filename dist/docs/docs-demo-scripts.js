@@ -231,13 +231,6 @@ angular.module('bottomSheetDemo1', ['ngMaterial'])
   });
 
 
-angular.module('cardDemo1', ['ngMaterial'])
-
-.controller('AppCtrl', function($scope) {
-  $scope.imagePath = 'https://material.angularjs.org/img/washedout.png';
-});
-
-
 angular.module('buttonsDemo1', ['ngMaterial'])
 
 .controller('AppCtrl', function($scope) {
@@ -247,6 +240,13 @@ angular.module('buttonsDemo1', ['ngMaterial'])
 
   $scope.googleUrl = 'http://google.com';
 
+});
+
+
+angular.module('cardDemo1', ['ngMaterial'])
+
+.controller('AppCtrl', function($scope) {
+  $scope.imagePath = 'https://material.angularjs.org/img/washedout.png';
 });
 
 
@@ -678,12 +678,12 @@ angular
   .controller('DemoCtrl', function( $scope ) {
       // Create list of font-icon names with color overrides
       var iconData = [
-            {name: 'icon-home'        , color: "#777" },
-            {name: 'icon-user-plus'   , color: "rgb(89, 226, 168)" },
-            {name: 'icon-google-plus2', color: "#A00" },
-            {name: 'icon-youtube4'    , color:"#00A" },
+            {name: 'icon-home'        , color: "#0070CC" },
+            {name: 'icon-user-plus'   , color: "#660099" },
+            {name: 'icon-google-plus2', color: "#EF1D2D" },
+            {name: 'icon-youtube4'    , color:"#424242" },
              // Use theming to color the font-icon
-            {name: 'icon-settings'    , color:"#A00", theme:"md-warn md-hue-5"}
+            {name: 'icon-settings'    , color:"#000000"}//, theme:"md-warn md-hue-5"} ORIGINAL
           ];
 
       // Create a set of sizes...

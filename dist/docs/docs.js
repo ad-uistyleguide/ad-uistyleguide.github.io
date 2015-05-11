@@ -724,8 +724,8 @@ DocsApp.constant('BUILDCONFIG', {
   "ngVersion": "1.3.15",
   "version": "0.9.0",
   "repository": "https://github.com/angular/material",
-  "commit": "5f3520e17f7472f45b4db1d851394adebbb34892",
-  "date": "2015-05-09 14:57:30 -0700"
+  "commit": "a4361abadb4908f8c4d5888ef510ed128584cfe8",
+  "date": "2015-05-10 01:11:31 -0700"
 });
 
 (function() {
@@ -3663,10 +3663,12 @@ angular.module('docsApp').run(['$templateCache', function($templateCache) {
     '              Source\n' +
     '            </div>\n' +
     '          </md-button>\n' +
+    '	<!-- UNCOMMENT TO ADD CODEPEN EDITOR TO ALL DEMO TOOLBARS\n' +
     '          <md-button ng-hide="{{exampleNotEditable}}" hide-sm ng-click="demoCtrl.editOnCodepen()">\n' +
     '            <md-icon md-svg-src="img/icons/codepen-logo.svg"></md-icon>\n' +
     '            Edit on codepen\n' +
     '          </md-button>\n' +
+    '	-->\n' +
     '        </div>\n' +
     '      </md-toolbar>\n' +
     '\n' +
