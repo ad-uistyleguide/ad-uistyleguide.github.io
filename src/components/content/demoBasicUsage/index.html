@@ -30,6 +30,36 @@ Qui utamur tacimates quaestio ad, quod graece omnium ius ut. Pri ut vero debitis
     </p>
 
 
+
+<div class="bottom-sheet-demo inset" layout="column" layout-sm="row" layout-align="center">
+    <button class="md-primary md-hue-1 md-button md-default-theme" ng-transclude="" ng-click="showListBottomSheet($event)" tabindex="0"><span class="ng-scope">
+      Show as List
+    </span><div class="md-ripple-container"></div></button>
+    <div style="width:50px;"></div>
+    <button class="md-primary md-hue-1 md-button md-default-theme" ng-transclude="" ng-click="showGridBottomSheet($event)" tabindex="0"><span class="ng-scope">
+      Show as Grid
+    </span></button>
+  </div>
+
+
+
+  <div ng-controller="AppCtrl">
+  <md-checkbox md-no-ink aria-label="Checkbox No Ink" ng-model="data.cb5" class="md-primary">
+    Checkbox (md-primary): No Ink
+  </md-checkbox>
+  <md-checkbox ng-model="data.cb2" aria-label="Checkbox 2" ng-true-value="'yup'" ng-false-value="'nope'" class="md-warn">
+    Checkbox 2 (md-warn): {{ data.cb2 }}
+  </md-checkbox>
+  <md-checkbox ng-disabled="true" aria-label="Disabled checkbox" ng-model="data.cb3">
+    Checkbox: Disabled
+  </md-checkbox>
+  <md-checkbox ng-disabled="true" aria-label="Disabled checked checkbox" ng-model="data.cb4" ng-init="data.cb4=true">
+    Checkbox: Disabled, Checked
+  </md-checkbox>
+
+</div>
+
+
     <p>
 Est in vivendum comprehensam conclusionemque, alia cetero iriure no usu, te cibo deterruisset pro. Ludus epicurei quo id, ex cum iudicabit intellegebat. <a>Ex modo deseruisse quo, mel noster menandri sententiae ea</a>, duo et tritani malorum recteque. Nullam suscipit partiendo nec id, indoctum vulputate per ex. Et has enim habemus tibique. Cu latine electram cum, ridens propriae intellegat eu mea.
     </p>

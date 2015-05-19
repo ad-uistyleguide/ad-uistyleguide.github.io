@@ -708,15 +708,6 @@ angular
   });
 
 
-angular.module('appSvgIconSets', ['ngMaterial'])
-  .controller('DemoCtrl', function($scope) {})
-  .config(function($mdIconProvider) {
-    $mdIconProvider
-      .iconSet('social', 'img/icons/sets/social-icons.svg', 24)
-      .defaultIconSet('img/icons/sets/core-icons.svg', 24);
-  });
-
-
 angular.module('appDemoSvgIcons', ['ngMaterial'])
 .controller('DemoCtrl', function( $scope ) {
 
@@ -725,6 +716,15 @@ angular.module('appDemoSvgIcons', ['ngMaterial'])
       return 'img/icons/android.svg';
     }
 });
+
+
+angular.module('appSvgIconSets', ['ngMaterial'])
+  .controller('DemoCtrl', function($scope) {})
+  .config(function($mdIconProvider) {
+    $mdIconProvider
+      .iconSet('social', 'img/icons/sets/social-icons.svg', 24)
+      .defaultIconSet('img/icons/sets/core-icons.svg', 24);
+  });
 
 
 angular.module('appUsingTemplateCache', ['ngMaterial'])
@@ -1359,9 +1359,9 @@ app.controller('AppCtrl', function($scope) {
   }
 });
 
+angular.module('whiteframeBasicUsage', ['ngMaterial']);
+
 angular.module('tooltipDemo1', ['ngMaterial'])
 .controller('AppCtrl', function($scope) {
   $scope.demo = {};
 });
-
-angular.module('whiteframeBasicUsage', ['ngMaterial']);
