@@ -140,6 +140,18 @@
   }
 })();
 
+
+angular.module('buttonsDemo1', ['ngMaterial'])
+
+.controller('AppCtrl', function($scope) {
+  $scope.title1 = 'Button';
+  $scope.title4 = 'Warn';
+  $scope.isDisabled = true;
+
+  $scope.googleUrl = 'http://google.com';
+
+});
+
 angular.module('bottomSheetDemo1', ['ngMaterial'])
 .config(function($mdIconProvider) {
     $mdIconProvider
@@ -229,18 +241,6 @@ angular.module('bottomSheetDemo1', ['ngMaterial'])
     });
 
   });
-
-
-angular.module('buttonsDemo1', ['ngMaterial'])
-
-.controller('AppCtrl', function($scope) {
-  $scope.title1 = 'Button';
-  $scope.title4 = 'Warn';
-  $scope.isDisabled = true;
-
-  $scope.googleUrl = 'http://google.com';
-
-});
 
 
 angular.module('cardDemo1', ['ngMaterial'])
@@ -672,6 +672,52 @@ angular.module('gridListDemo1', ['ngMaterial'])
   }
 });
 
+angular
+  .module('inputBasicDemo', ['ngMaterial', 'ngMessages'])
+  .controller('DemoCtrl', function($scope) {
+    $scope.user = {
+      title: 'Developer',
+      email: 'ipsum@lorem.com',
+      firstName: '',
+      lastName: '' ,
+      company: 'Google' ,
+      address: '1600 Amphitheatre Pkwy' ,
+      city: 'Mountain View' ,
+      state: 'CA' ,
+      biography: 'Loves kittens, snowboarding, and can type at 130 WPM.\n\nAnd rumor has it she bouldered up Castle Craig!',
+      postalCode : '94043'
+    };
+  })
+  .config( function($mdThemingProvider){
+
+    // Configure a dark theme with primary foreground yellow
+
+    $mdThemingProvider.theme('docs-dark', 'default')
+        .primaryPalette('yellow')
+        .dark();
+
+  });
+
+angular.module('inputErrorsApp', ['ngMaterial', 'ngMessages'])
+
+.controller('AppCtrl', function($scope) {
+  $scope.project = {
+    description: 'Nuclear Missile Defense System',
+    rate: 500
+  };
+});
+
+angular
+  .module('inputIconDemo', ['ngMaterial', 'ngMessages'])
+  .controller('DemoCtrl', function($scope) {
+    $scope.user = {
+      name: 'John Doe',
+      email: '',
+      phone: '',
+      address: 'Mountain View, CA'
+    };
+  });
+
 
 angular
   .module('appDemoFontIcons', ['ngMaterial'])
@@ -756,52 +802,6 @@ angular.module('appUsingTemplateCache', ['ngMaterial'])
 
   })
   ;
-
-angular
-  .module('inputBasicDemo', ['ngMaterial', 'ngMessages'])
-  .controller('DemoCtrl', function($scope) {
-    $scope.user = {
-      title: 'Developer',
-      email: 'ipsum@lorem.com',
-      firstName: '',
-      lastName: '' ,
-      company: 'Google' ,
-      address: '1600 Amphitheatre Pkwy' ,
-      city: 'Mountain View' ,
-      state: 'CA' ,
-      biography: 'Loves kittens, snowboarding, and can type at 130 WPM.\n\nAnd rumor has it she bouldered up Castle Craig!',
-      postalCode : '94043'
-    };
-  })
-  .config( function($mdThemingProvider){
-
-    // Configure a dark theme with primary foreground yellow
-
-    $mdThemingProvider.theme('docs-dark', 'default')
-        .primaryPalette('yellow')
-        .dark();
-
-  });
-
-angular.module('inputErrorsApp', ['ngMaterial', 'ngMessages'])
-
-.controller('AppCtrl', function($scope) {
-  $scope.project = {
-    description: 'Nuclear Missile Defense System',
-    rate: 500
-  };
-});
-
-angular
-  .module('inputIconDemo', ['ngMaterial', 'ngMessages'])
-  .controller('DemoCtrl', function($scope) {
-    $scope.user = {
-      name: 'John Doe',
-      email: '',
-      phone: '',
-      address: 'Mountain View, CA'
-    };
-  });
 
 
 angular.module('listDemo1', ['ngMaterial'])
@@ -1359,9 +1359,9 @@ app.controller('AppCtrl', function($scope) {
   }
 });
 
-angular.module('whiteframeBasicUsage', ['ngMaterial']);
-
 angular.module('tooltipDemo1', ['ngMaterial'])
 .controller('AppCtrl', function($scope) {
   $scope.demo = {};
 });
+
+angular.module('whiteframeBasicUsage', ['ngMaterial']);
