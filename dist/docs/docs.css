@@ -853,7 +853,7 @@ md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
 
 /* TOOLBARS */
-md-toolbar.md-default-theme {background-color: #cc0000;}
+md-toolbar.md-default-theme {background-color: #000000;}
 .toolbarDemo1 md-toolbar.md-default-theme:first-child {background-color: #cc0000;}
 
 
@@ -879,7 +879,7 @@ md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused .m
 
 
 /* CODE HIGHLIGHTING */
-code:not(.highlight) {color: #666666 !important;}
+code:not(.highlight) {color: #000000 !important;}
 
 
 /* HTML EXAMPLE TITLE BARS */
@@ -896,7 +896,7 @@ pre > code.highlight {color: #c7c7c7;}
 
 /* DIALOG TITLE BARS*/
 .dialogdemoBasicUsage .md-subheader {background-color: #0070CC !important;}
-.dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #666666;}
+.dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #ffffff;}
 
 
 /* RADIO BUTTONS */
@@ -904,6 +904,9 @@ md-radio-button.md-default-theme .md-on {background-color: #424242;}
 md-radio-button.md-default-theme.md-checked .md-off {border-color: #424242;}
 .radioButtondemoBasicUsage .radioValue {color: #424242 !important;}
 
+
+/* SIDENAV */
+.docs-menu .md-button {text-transform: none;}
 
 
 
