@@ -2,14 +2,14 @@ md-chips.md-THEME_NAME-theme {
   .md-chips {
     box-shadow: 0 1px '{{background-300}}';
     &.md-focused {
-      box-shadow: 0 2px '{{primary-color}}';
+      box-shadow: 0 2px '{{accent-color}}';
     }
   }
   .md-chip {
     background: '{{background-200}}';
     color: '{{background-800}}';
     &.md-focused {
-      background: '{{primary-color}}';
+      background: '{{accent-500}}';
       color: '{{primary-contrast}}';
       md-icon {
         color: '{{primary-contrast}}';
