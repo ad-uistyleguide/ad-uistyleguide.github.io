@@ -849,6 +849,7 @@ ul.methods > li:first-child > *:first-child {
 .docs-menu .md-button.active {color: #cc0000; font-weight: 500 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
+.docs-menu .md-button {text-transform: none;}
 
 
 
@@ -867,11 +868,11 @@ a {
 
 
 /* TABS */
-md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #424242;}
+md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #000000;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #cc0000;}
-md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #4c4c4c}
+md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #000000}
 
 /* DARK THEME */
 md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused label {color: white !important;}
@@ -879,7 +880,7 @@ md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused .m
 
 
 /* CODE HIGHLIGHTING */
-code:not(.highlight) {color: #666666 !important;}
+code:not(.highlight) {color: #ffffff !important; background-color: #000000;}
 
 
 /* HTML EXAMPLE TITLE BARS */
@@ -895,8 +896,8 @@ pre > code.highlight {color: #c7c7c7;}
 
 
 /* DIALOG TITLE BARS*/
-.dialogdemoBasicUsage .md-subheader {background-color: #0070CC !important;}
-.dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #666666;}
+.dialogdemoBasicUsage .md-subheader {background-color: #000000 !important;}
+.dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #ffffff;}
 
 
 /* RADIO BUTTONS */
@@ -905,5 +906,5 @@ md-radio-button.md-default-theme.md-checked .md-off {border-color: #424242;}
 .radioButtondemoBasicUsage .radioValue {color: #424242 !important;}
 
 
-
+svg path {color: purple !important;}
 
