@@ -57,8 +57,8 @@ md-tabs.md-THEME_NAME-theme {
   }
 
   md-ink-bar {
-    color: '{{accent-color}}';
-    background: '{{accent-color}}';
+    color: '{{warn-color}}';
+    background: '{{warn-color}}';
   }
 
   .md-tab {
@@ -67,7 +67,8 @@ md-tabs.md-THEME_NAME-theme {
       color: '{{foreground-3}}';
     }
     &.md-active, &.md-focused {
-      color: '{{primary-color}}';
+      color: '{{primary-800}}';
+      font-weight: 600;
     }
     &.md-focused {
       background: '{{primary-color-0.1}}';

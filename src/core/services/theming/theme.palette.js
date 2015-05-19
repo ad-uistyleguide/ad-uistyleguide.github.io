@@ -438,23 +438,23 @@ angular.module('material.core.theming.palette', [])
     'contrastStrongLightColors': '400 500'
   },
     'ad-4c4c4c': {
-    '50': '#4c4c4c',
-    '100': '#4c4c4c',
-    '200': '#4c4c4c',
-    '300': '#4c4c4c',
-    '400': '#4c4c4c',
+    '50': '#E8E8E8',
+    '100': '#c7c7c7',
+    '200': '#a6a6a6',
+    '300': '#818181',
+    '400': '#666666',
     '500': '#4c4c4c',
-    '600': '#4c4c4c',
-    '700': '#4c4c4c',
-    '800': '#4c4c4c',
-    '900': '#4c4c4c',
-    'A100': '#4c4c4c',
-    'A200': '#4c4c4c',
-    'A400': '#4c4c4c',
-    'A700': '#4c4c4c',
+    '600': '#454545',
+    '700': '#3D3D3D',
+    '800': '#363636',
+    '900': '#272727',
+    'A100': '#c7c7c7',
+    'A200': '#a6a6a6',
+    'A400': '#666666',
+    'A700': '#3D3D3D',
     'contrastDefaultColor': 'light',
-    'contrastDarkColors': '50 100 200 300',
-    'contrastStrongLightColors': '400 500'
+    'contrastDarkColors': '',
+    'contrastStrongLightColors': '50 100 200 300 400 500'
   },
     'ad-0F4C8C2': {
     '50': '#0F4C8C',
@@ -548,8 +548,8 @@ angular.module('material.core.theming.palette', [])
     'A400': '#000000',
     'A700': '#000000',
     'contrastDefaultColor': 'light',
-    'contrastDarkColors': '50 100 200 300',
-    'contrastStrongLightColors': '400 500'
+    'contrastDarkColors': '',
+    'contrastStrongLightColors': '50 100 200 300 400 500'
   },
     'ad-660099': { /* AD Websafe Purple Pantone 2597 Monochrome*/
     '50': '#E6D5EF',
@@ -586,7 +586,7 @@ angular.module('material.core.theming.palette', [])
     'A400': '#1c83c3',
     'A700': '#1c83c3',
     'contrastDefaultColor': 'light',
-    'contrastDarkColors': '50 100 200 300',
+    'contrastDarkColors': '50',
     'contrastStrongLightColors': '400 500'
   },
     'ad-ff0014': { /*Warning AD Red*/
@@ -702,18 +702,26 @@ angular.module('material.core.theming.palette', [])
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '',
     'contrastStrongLightColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700'
+  },
+    'ad-0070CC': { /* Warning Saturated Red Pantone 1797 */
+    '50': '#DEECF9',
+    '100': '#B0D3EF',
+    '200': '#80B8E6',
+    '300': '#4C9ADB',
+    '400': '#2685D3',
+    '500': '#0070CC',
+    '600': '#0065B9',
+    '700': '#005BA5',
+    '800': '#004F91',
+    '900': '#003A6A',
+    'A100': '#B0D3EF',
+    'A200': '#80B8E6',
+    'A400': '#2685D3',
+    'A700': '#005BA5',
+    'contrastDefaultColor': 'light',
+    'contrastDarkColors': '',
+    'contrastStrongLightColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700'
   }
-
-
-
-
-
-
-
-
-
-
-
 
 });
 })();
