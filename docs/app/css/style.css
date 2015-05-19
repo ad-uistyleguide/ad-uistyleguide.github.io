@@ -647,19 +647,24 @@ ul.methods > li:first-child > *:first-child {
 
 
 /* SIDENAV */
-.docs-menu .md-button.active {color: #cc0000; font-weight: 500 !important;}
+.docs-menu .md-button.active {color: #660099; font-weight: 600 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
+/* SIDENAV SECTION FOCUS
+md-sidenav a.md-button.md-default-theme:not([disabled]):hover, md-sidenav .md-button.md-default-theme:not([disabled]):hover {background-color: transparent !important;}
+md-sidenav .docs-menu li.parentActive, md-sidenav .docs-menu li.parentActive .menu-toggle-list {background-color: #F9F5FB !important;}
+*/
 
-
-/* TOOLBARS */
+/* TOOLBARS 
 md-toolbar.md-default-theme {background-color: #000000;}
+
 .toolbarDemo1 md-toolbar.md-default-theme:first-child {background-color: #cc0000;}
+*/
 
 
 a {
-  color: #0070CC;
+  color: #660099;
   text-decoration: none; }
 
 
@@ -668,10 +673,10 @@ a {
 
 
 /* TABS */
-md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #424242;}
+md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #660099;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
-md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #cc0000;}
+md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #ffffff;}
 md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #4c4c4c}
 
 /* DARK THEME */
@@ -680,23 +685,23 @@ md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused .m
 
 
 /* CODE HIGHLIGHTING */
-code:not(.highlight) {color: #000000 !important;}
+code:not(.highlight) {color: white; background-color: #48006C !important;}
 
 
 /* HTML EXAMPLE TITLE BARS */
-hljs:before {background: #cc0000; color: #ffffff;}
+hljs:before {background: #350050; color: #ffffff;}
 hljs {background: #363636;}
 
 /* HTML JS EXAMPLES */
 .hljs-tag, .hljs-tag .hljs-title, .hljs-keyword, .hljs-literal, .hljs-strong, .hljs-change, .hljs-winutils, .hljs-flow, .nginx .hljs-title, .tex .hljs-special {color: #ffffff;}
-.hljs-link_label, .hljs-attribute, .hljs-symbol, .hljs-symbol .hljs-string, .hljs-value, .hljs-params, .hljs-regexp {color: #DB4C4C;}
-.hljs-link_url, .hljs-tag .hljs-value, .hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-emphasis, .hljs-type, .hljs-preprocessor, .hljs-pragma, .ruby .hljs-class .hljs-parent, .hljs-built_in, .django .hljs-template_tag, .django .hljs-variable, .smalltalk .hljs-class, .hljs-javadoc, .django .hljs-filter .hljs-argument, .smalltalk .hljs-localvars, .smalltalk .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-addition, .hljs-stream, .hljs-envvar, .apache .hljs-tag, .apache .hljs-cbracket, .tex .hljs-command, .hljs-prompt, .hljs-name {color: #80B8E6;}
+.hljs-link_label, .hljs-attribute, .hljs-symbol, .hljs-symbol .hljs-string, .hljs-value, .hljs-params, .hljs-regexp {color: #B380CC;}
+.hljs-link_url, .hljs-tag .hljs-value, .hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-emphasis, .hljs-type, .hljs-preprocessor, .hljs-pragma, .ruby .hljs-class .hljs-parent, .hljs-built_in, .django .hljs-template_tag, .django .hljs-variable, .smalltalk .hljs-class, .hljs-javadoc, .django .hljs-filter .hljs-argument, .smalltalk .hljs-localvars, .smalltalk .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-addition, .hljs-stream, .hljs-envvar, .apache .hljs-tag, .apache .hljs-cbracket, .tex .hljs-command, .hljs-prompt, .hljs-name {color: #CFB0DF;}
 .hljs-comment, .hljs-annotation, .smartquote, .hljs-blockquote, .hljs-horizontal_rule, .hljs-decorator, .hljs-pi, .hljs-doctype, .hljs-deletion, .hljs-shebang, .apache .hljs-sqbracket, .tex .hljs-formula {color: #ffffff;}
 pre > code.highlight {color: #c7c7c7;}
 
 
 /* DIALOG TITLE BARS*/
-.dialogdemoBasicUsage .md-subheader {background-color: #0070CC !important;}
+.dialogdemoBasicUsage .md-subheader {background-color: #660099 !important;}
 .dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #ffffff;}
 
 

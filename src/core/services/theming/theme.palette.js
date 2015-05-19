@@ -454,7 +454,7 @@ angular.module('material.core.theming.palette', [])
     'A700': '#3D3D3D',
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '',
-    'contrastStrongLightColors': '50 100 200 300 400 500'
+    'contrastStrongLightColors': '50 100 200 300 400 500 A700'
   },
     'ad-0F4C8C2': {
     '50': '#0F4C8C',
@@ -552,20 +552,20 @@ angular.module('material.core.theming.palette', [])
     'contrastStrongLightColors': '50 100 200 300 400 500'
   },
     'ad-660099': { /* AD Websafe Purple Pantone 2597 Monochrome*/
-    '50': '#E6D5EF',
-    '100': '#C59ED8',
-    '200': '#A166C1',
-    '300': '#8032A8',
-    '400': '#680A96',
-    '500': '#520087',
-    '600': '#490078',
-    '700': '#400068',
-    '800': '#37005A',
-    '900': '#26003E',
-    'A100': '#C59ED8',
-    'A200': '#A166C1',
-    'A400': '#680A96',
-    'A700': '#400068',
+    '50': '#EBDEF2',
+    '100': '#CFB0DF',
+    '200': '#B380CC',
+    '300': '#934CB7',
+    '400': '#7C26A8',
+    '500': '#660099',
+    '600': '#5C008B',
+    '700': '#52007C',
+    '800': '#48006C',
+    '900': '#350050',
+    'A100': '#CFB0DF',
+    'A200': '#B380CC',
+    'A400': '#7C26A8',
+    'A700': '#52007C',
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '50 100 200',
     'contrastStrongLightColors': '300 400 500'

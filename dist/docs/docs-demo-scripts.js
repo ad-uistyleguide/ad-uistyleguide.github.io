@@ -1359,9 +1359,9 @@ app.controller('AppCtrl', function($scope) {
   }
 });
 
+angular.module('whiteframeBasicUsage', ['ngMaterial']);
+
 angular.module('tooltipDemo1', ['ngMaterial'])
 .controller('AppCtrl', function($scope) {
   $scope.demo = {};
 });
-
-angular.module('whiteframeBasicUsage', ['ngMaterial']);

@@ -724,8 +724,8 @@ DocsApp.constant('BUILDCONFIG', {
   "ngVersion": "1.3.15",
   "version": "0.9.0",
   "repository": "https://github.com/angular/material",
-  "commit": "624326dab673eb9ab9e76ee8c0bd8ff49f9e2d3d",
-  "date": "2015-05-18 17:10:17 -0700"
+  "commit": "7ff7e60f576232b3818f99aee442cc1fd5f8b46a",
+  "date": "2015-05-19 09:31:09 -0700"
 });
 
 (function() {
@@ -889,28 +889,6 @@ DocsApp.constant('BUILDCONFIG', {
 DocsApp
 .constant('COMPONENTS', [
   {
-    "name": "material.components.button",
-    "type": "module",
-    "outputPath": "partials/api/material.components.button/index.html",
-    "url": "api/material.components.button",
-    "label": "material.components.button",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdButton",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.button/directive/mdButton.html",
-        "url": "api/material.components.button/directive/mdButton",
-        "label": "mdButton",
-        "hasDemo": true,
-        "module": "material.components.button",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/button/button.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.bottomSheet",
     "type": "module",
     "outputPath": "partials/api/material.components.bottomSheet/index.html",
@@ -933,6 +911,28 @@ DocsApp
     ]
   },
   {
+    "name": "material.components.button",
+    "type": "module",
+    "outputPath": "partials/api/material.components.button/index.html",
+    "url": "api/material.components.button",
+    "label": "material.components.button",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdButton",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.button/directive/mdButton.html",
+        "url": "api/material.components.button/directive/mdButton",
+        "label": "mdButton",
+        "hasDemo": true,
+        "module": "material.components.button",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/button/button.js"
+      }
+    ]
+  },
+  {
     "name": "material.components.card",
     "type": "module",
     "outputPath": "partials/api/material.components.card/index.html",
@@ -951,6 +951,28 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.card",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/card/card.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.checkbox",
+    "type": "module",
+    "outputPath": "partials/api/material.components.checkbox/index.html",
+    "url": "api/material.components.checkbox",
+    "label": "material.components.checkbox",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdCheckbox",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.checkbox/directive/mdCheckbox.html",
+        "url": "api/material.components.checkbox/directive/mdCheckbox",
+        "label": "mdCheckbox",
+        "hasDemo": true,
+        "module": "material.components.checkbox",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/checkbox/checkbox.js"
       }
     ]
   },
@@ -1095,24 +1117,34 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.checkbox",
+    "name": "material.components.input",
     "type": "module",
-    "outputPath": "partials/api/material.components.checkbox/index.html",
-    "url": "api/material.components.checkbox",
-    "label": "material.components.checkbox",
+    "outputPath": "partials/api/material.components.input/index.html",
+    "url": "api/material.components.input",
+    "label": "material.components.input",
     "hasDemo": false,
     "module": ".",
     "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
     "docs": [
       {
-        "name": "mdCheckbox",
+        "name": "mdInputContainer",
         "type": "directive",
-        "outputPath": "partials/api/material.components.checkbox/directive/mdCheckbox.html",
-        "url": "api/material.components.checkbox/directive/mdCheckbox",
-        "label": "mdCheckbox",
+        "outputPath": "partials/api/material.components.input/directive/mdInputContainer.html",
+        "url": "api/material.components.input/directive/mdInputContainer",
+        "label": "mdInputContainer",
         "hasDemo": true,
-        "module": "material.components.checkbox",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/checkbox/checkbox.js"
+        "module": "material.components.input",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
+      },
+      {
+        "name": "mdInput",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.input/directive/mdInput.html",
+        "url": "api/material.components.input/directive/mdInput",
+        "label": "mdInput",
+        "hasDemo": true,
+        "module": "material.components.input",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
       }
     ]
   },
@@ -1145,38 +1177,6 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.list",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/list/list.js"
-      }
-    ]
-  },
-  {
-    "name": "material.components.input",
-    "type": "module",
-    "outputPath": "partials/api/material.components.input/index.html",
-    "url": "api/material.components.input",
-    "label": "material.components.input",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdInputContainer",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.input/directive/mdInputContainer.html",
-        "url": "api/material.components.input/directive/mdInputContainer",
-        "label": "mdInputContainer",
-        "hasDemo": true,
-        "module": "material.components.input",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
-      },
-      {
-        "name": "mdInput",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.input/directive/mdInput.html",
-        "url": "api/material.components.input/directive/mdInput",
-        "label": "mdInput",
-        "hasDemo": true,
-        "module": "material.components.input",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/input/input.js"
       }
     ]
   },
@@ -1343,6 +1343,28 @@ DocsApp
     ]
   },
   {
+    "name": "material.components.subheader",
+    "type": "module",
+    "outputPath": "partials/api/material.components.subheader/index.html",
+    "url": "api/material.components.subheader",
+    "label": "material.components.subheader",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdSubheader",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.subheader/directive/mdSubheader.html",
+        "url": "api/material.components.subheader/directive/mdSubheader",
+        "label": "mdSubheader",
+        "hasDemo": true,
+        "module": "material.components.subheader",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/subheader/subheader.js"
+      }
+    ]
+  },
+  {
     "name": "material.components.swipe",
     "type": "module",
     "outputPath": "partials/api/material.components.swipe/index.html",
@@ -1375,28 +1397,6 @@ DocsApp
     ]
   },
   {
-    "name": "material.components.subheader",
-    "type": "module",
-    "outputPath": "partials/api/material.components.subheader/index.html",
-    "url": "api/material.components.subheader",
-    "label": "material.components.subheader",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdSubheader",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.subheader/directive/mdSubheader.html",
-        "url": "api/material.components.subheader/directive/mdSubheader",
-        "label": "mdSubheader",
-        "hasDemo": true,
-        "module": "material.components.subheader",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/subheader/subheader.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.switch",
     "type": "module",
     "outputPath": "partials/api/material.components.switch/index.html",
@@ -1415,28 +1415,6 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.switch",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/switch/switch.js"
-      }
-    ]
-  },
-  {
-    "name": "material.components.tooltip",
-    "type": "module",
-    "outputPath": "partials/api/material.components.tooltip/index.html",
-    "url": "api/material.components.tooltip",
-    "label": "material.components.tooltip",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "mdTooltip",
-        "type": "directive",
-        "outputPath": "partials/api/material.components.tooltip/directive/mdTooltip.html",
-        "url": "api/material.components.tooltip/directive/mdTooltip",
-        "label": "mdTooltip",
-        "hasDemo": true,
-        "module": "material.components.tooltip",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/tooltip/tooltip.js"
       }
     ]
   },
@@ -1481,6 +1459,28 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.toolbar",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/toolbar/toolbar.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.tooltip",
+    "type": "module",
+    "outputPath": "partials/api/material.components.tooltip/index.html",
+    "url": "api/material.components.tooltip",
+    "label": "material.components.tooltip",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "mdTooltip",
+        "type": "directive",
+        "outputPath": "partials/api/material.components.tooltip/directive/mdTooltip.html",
+        "url": "api/material.components.tooltip/directive/mdTooltip",
+        "label": "mdTooltip",
+        "hasDemo": true,
+        "module": "material.components.tooltip",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/tooltip/tooltip.js"
       }
     ]
   },
