@@ -30,13 +30,13 @@ md-input-container.md-THEME_NAME-theme {
     }
     &.md-input-focused {
       .md-input {
-        border-color: '{{primary-500}}';
+        border-color: '{{accent-500}}';
       }
       label {
-        color: '{{primary-500}}';
+        color: '{{accent-500}}';
       }
       md-icon {
-        color: '{{primary-500}}';
+        color: '{{accent-500}}';
       }
       &.md-accent {
         .md-input {
