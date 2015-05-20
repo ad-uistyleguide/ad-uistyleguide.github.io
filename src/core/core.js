@@ -15,7 +15,7 @@ function MdCoreConfigure($provide, $mdThemingProvider) {
   $provide.decorator('$$rAF', ["$delegate", rAFDecorator]);
 
   $mdThemingProvider.theme('default')
-    .primaryPalette('ad-660099', {
+    .primaryPalette('ad-0070CC', {
       'default': '500', // by default use shade 400 from the pink palette for primary intentions
       'hue-1': '500', // use shade 100 for the <code>md-hue-1</code> class
       'hue-2': '500', // use shade 100 for the <code>md-hue-1</code> class

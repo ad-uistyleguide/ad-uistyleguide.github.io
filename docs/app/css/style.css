@@ -647,7 +647,7 @@ ul.methods > li:first-child > *:first-child {
 
 
 /* SIDENAV */
-.docs-menu .md-button.active {color: #660099; font-weight: 600 !important;}
+.docs-menu .md-button.active {color: #cc0000; font-weight: 600 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
@@ -657,16 +657,16 @@ md-sidenav .docs-menu li.parentActive, md-sidenav .docs-menu li.parentActive .me
 */
 
 /* TOOLBARS 
-md-toolbar.md-default-theme {background-color: #000000;}
-
 .toolbarDemo1 md-toolbar.md-default-theme:first-child {background-color: #cc0000;}
 */
+md-toolbar.md-default-theme {background-color: #4C4C4C;}
+
 
 
 a {
   color: #0070cc;
   text-decoration: none; }
-  ul.buckets li a:hover, ul.buckets li a:focus {background-color: #660099 !important;}
+  ul.buckets li a:hover, ul.buckets li a:focus {background-color: #0070CC !important;}
 
 
 
@@ -675,10 +675,11 @@ a {
 
 
 /* TABS */
-md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #660099;}
+md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #363636;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #ffffff;}
+md-tabs.md-default-theme md-ink-bar {background-color: #cc0000 !important;}
 md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #272727}
 
 /* DARK THEME */
@@ -703,7 +704,7 @@ pre > code.highlight {color: #c7c7c7;}
 
 
 /* DIALOG TITLE BARS*/
-.dialogdemoBasicUsage .md-subheader {background-color: #000000 !important;}
+.dialogdemoBasicUsage .md-subheader {background-color: #0070CC !important;}
 .dialogdemoBasicUsage  .md-subheader.md-default-theme {color: #ffffff;}
 
 
@@ -715,6 +716,7 @@ md-radio-button.md-default-theme.md-checked .md-off {border-color: #424242;}
 
 /* SIDENAV */
 .docs-menu .md-button {text-transform: none;}
+
 
 
 
