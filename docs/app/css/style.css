@@ -679,7 +679,7 @@ md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #660099;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #ffffff;}
-md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #660099}
+md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #272727}
 
 /* DARK THEME */
 md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused label {color: white !important;}
