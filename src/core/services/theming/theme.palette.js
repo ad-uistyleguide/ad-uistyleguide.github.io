@@ -721,6 +721,25 @@ angular.module('material.core.theming.palette', [])
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '',
     'contrastStrongLightColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700'
+  },
+    'ad-78be20': { /* Warning Saturated Red Pantone 1797 */
+    '50': '#EDF7E2',
+    '100': '#D5EBBA',
+    '200': '#BCDF90',
+    '300': '#A0D162',
+    '400': '#8CC741',
+    '500': '#78be20',
+    '600': '#6DAC1D',
+    '700': '#619A1A',
+    '800': '#558716',
+    '900': '#3E6310',
+    'A100': '#D5EBBA',
+    'A200': '#BCDF90',
+    'A400': '#8CC741',
+    'A700': '#619A1A',
+    'contrastDefaultColor': 'Light',
+    'contrastDarkColors': '',
+    'contrastStrongLightColors': '600 700 800 900 A100 A200 A400 A700'
   }
 
 });

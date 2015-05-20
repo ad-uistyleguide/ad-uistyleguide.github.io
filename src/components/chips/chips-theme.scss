@@ -10,7 +10,7 @@ md-chips.md-THEME_NAME-theme {
     color: '{{background-800}}';
     &.md-focused {
       background: '{{accent-500}}';
-      color: '{{primary-contrast}}';
+      color: '{{background-100}}';
       md-icon {
         color: '{{primary-contrast}}';
       }

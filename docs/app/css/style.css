@@ -647,7 +647,7 @@ ul.methods > li:first-child > *:first-child {
 
 
 /* SIDENAV */
-.docs-menu .md-button.active {color: #660099; font-weight: 600 !important;}
+.docs-menu .md-button.active {color: #78be20; font-weight: 600 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
@@ -666,7 +666,7 @@ md-toolbar.md-default-theme {background-color: #000000;}
 a {
   color: #0070cc;
   text-decoration: none; }
-  ul.buckets li a:hover, ul.buckets li a:focus {background-color: #660099 !important;}
+  ul.buckets li a:hover, ul.buckets li a:focus {background-color: #78be20 !important;}
 
 
 
@@ -675,7 +675,7 @@ a {
 
 
 /* TABS */
-md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #660099;}
+md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #78be20;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #ffffff;}
