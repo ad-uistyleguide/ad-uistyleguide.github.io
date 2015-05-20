@@ -721,6 +721,25 @@ angular.module('material.core.theming.palette', [])
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '',
     'contrastStrongLightColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700'
+  },
+    'ad-005eb8': {
+    '50': '#DEEAF6',
+    '100': '#B0CDE9',
+    '200': '#80AFDC',
+    '300': '#4C8ECD',
+    '400': '#2676C2',
+    '500': '#005eb8',
+    '600': '#0055A7',
+    '700': '#004C95',
+    '800': '#004282',
+    '900': '#003160',
+    'A100': '#B0CDE9',
+    'A200': '#80AFDC',
+    'A400': '#2676C2',
+    'A700': '#004C95',
+    'contrastDefaultColor': 'light',
+    'contrastDarkColors': '50 100 200 300',
+    'contrastStrongLightColors': '400 500'
   }
 
 });

@@ -647,7 +647,7 @@ ul.methods > li:first-child > *:first-child {
 
 
 /* SIDENAV */
-.docs-menu .md-button.active {color: #cc0000; font-weight: 500 !important;}
+.docs-menu .md-button.active {color: #005eb8; font-weight: 500 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 .docs-menu .md-button {text-transform: none;}
@@ -655,8 +655,8 @@ md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
 
 /* TOOLBARS */
-md-toolbar.md-default-theme {background-color: #cc0000;}
-.toolbarDemo1 md-toolbar.md-default-theme:first-child {background-color: #cc0000;}
+md-toolbar.md-default-theme {background-color: #005eb8;}
+.toolbarDemo1 md-toolbar.md-default-theme:first-child {background-color: #005eb8;}
 
 
 a {
@@ -672,8 +672,8 @@ a {
 md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #000000;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
-md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #cc0000;}
-md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #000000}
+md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #0070cc;}
+md-tabs.md-default-theme .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-focused {color: #272727;}
 
 /* DARK THEME */
 md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused label {color: white !important;}
@@ -687,6 +687,7 @@ code:not(.highlight) {color: #ffffff !important; background-color: #4c4c4c;}
 /* HTML EXAMPLE TITLE BARS */
 hljs:before {background: #6A0000; color: #ffffff;}
 hljs {background: #363636;}
+
 
 /* HTML JS EXAMPLES */
 .hljs-tag, .hljs-tag .hljs-title, .hljs-keyword, .hljs-literal, .hljs-strong, .hljs-change, .hljs-winutils, .hljs-flow, .nginx .hljs-title, .tex .hljs-special {color: #ffffff;}

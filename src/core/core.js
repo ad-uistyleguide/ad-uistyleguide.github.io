@@ -15,13 +15,13 @@ function MdCoreConfigure($provide, $mdThemingProvider) {
   $provide.decorator('$$rAF', ["$delegate", rAFDecorator]);
 
   $mdThemingProvider.theme('default')
-    .primaryPalette('ad-4c4c4c', {
+    .primaryPalette('ad-005eb8', {
       'default': '500', // by default use shade 400 from the pink palette for primary intentions
       'hue-1': '500', // use shade 100 for the <code>md-hue-1</code> class
       'hue-2': 'A700', // use shade 100 for the <code>md-hue-1</code> class
       'hue-3': '50' // use shade 100 for the <code>md-hue-1</code> class
     })
-    .accentPalette('ad-0070CC', {
+    .accentPalette('ad-4c4c4c', {
       'default': '500' // by default use shade 400 from the pink palette for primary intentions
     })
     .warnPalette('ad-cc0000')

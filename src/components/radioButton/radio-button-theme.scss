@@ -25,18 +25,18 @@ md-radio-button.md-THEME_NAME-theme {
     .md-primary,
     &.md-primary {
       .md-on {
-        background-color: '{{primary-color-0.87}}';
+        background-color: '{{accent-color-0.87}}';
       }
       .md-checked,
       &.md-checked {
         .md-off {
-          border-color: '{{primary-color-0.87}}';
+          border-color: '{{accent-color-0.87}}';
         }
       }
       .md-checked,
       &.md-checked {
         .md-ink-ripple {
-          color: '{{primary-color-0.87}}';
+          color: '{{accent-color-0.87}}';
         }
       }
       .md-container .md-ripple {
@@ -87,7 +87,7 @@ md-radio-group.md-THEME_NAME-theme.md-focused:not(:empty) {
     background-color: '{{accent-color-0.26}}';
   }
   .md-checked:not([disabled]).md-primary .md-container:before {
-    background-color: '{{primary-color-0.26}}';
+    background-color: '{{accent-color-0.26}}';
   }
   .md-checked.md-primary .md-container:before {
     background-color: '{{warn-color-0.26}}';
