@@ -21,7 +21,7 @@ function MdCoreConfigure($provide, $mdThemingProvider) {
       'hue-2': '500', // use shade 100 for the <code>md-hue-1</code> class
       'hue-3': '500' // use shade 100 for the <code>md-hue-1</code> class
     })
-    .accentPalette('ad-0070CC', {
+    .accentPalette('ad-4c4c4c', {
       'default': '500' // by default use shade 400 from the pink palette for primary intentions
     })
     .warnPalette('ad-cc0000')

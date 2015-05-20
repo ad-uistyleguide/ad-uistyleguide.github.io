@@ -8,10 +8,10 @@ md-switch.md-THEME_NAME-theme {
 
   &.md-checked {
     .md-thumb {
-      background-color: '{{primary-color}}';
+      background-color: '{{accent-color}}';
     }
     .md-bar {
-      background-color: '{{primary-color-0.5}}';
+      background-color: '{{accent-color-0.5}}';
     }
     &.md-focused .md-thumb:before {
       background-color: '{{accent-color-0.26}}';
@@ -19,13 +19,13 @@ md-switch.md-THEME_NAME-theme {
 
     &.md-primary {
       .md-thumb {
-        background-color: '{{primary-color}}';
+        background-color: '{{accent-color}}';
       }
       .md-bar {
-        background-color: '{{primary-color-0.5}}';
+        background-color: '{{accent-color-0.5}}';
       }
       &.md-focused .md-thumb:before {
-        background-color: '{{primary-color-0.26}}';
+        background-color: '{{accent-color-0.26}}';
       }
     }
 
