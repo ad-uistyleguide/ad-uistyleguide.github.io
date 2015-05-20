@@ -24,7 +24,7 @@ md-checkbox.md-THEME_NAME-theme {
   &:not([disabled]) {
     &.md-primary {
       .md-ripple {
-        color: '{{primary-600}}';
+        color: '{{accent-600}}';
       }
       &.md-checked .md-ripple {
         color: '{{background-600}}';
