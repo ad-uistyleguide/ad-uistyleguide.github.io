@@ -737,9 +737,9 @@ angular.module('material.core.theming.palette', [])
     'A200': '#BCDF90',
     'A400': '#8CC741',
     'A700': '#619A1A',
-    'contrastDefaultColor': 'Light',
-    'contrastDarkColors': '',
-    'contrastStrongLightColors': '600 700 800 900 A100 A200 A400 A700'
+    'contrastDefaultColor': 'light',
+    'contrastDarkColors': '50 100 200 300',
+    'contrastStrongLightColors': '400 500'
   }
 
 });
