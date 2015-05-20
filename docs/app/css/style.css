@@ -687,7 +687,7 @@ md-input-container.md-docs-dark-theme:not(.md-input-invalid).md-input-focused .m
 
 
 /* CODE HIGHLIGHTING */
-code:not(.highlight) {color: white; background-color: #4c4c4c !important;}
+code:not(.highlight) {color: white; background-color: #818181 !important;}
 
 
 /* HTML EXAMPLE TITLE BARS */
