@@ -685,7 +685,7 @@ code:not(.highlight) {color: #ffffff !important; background-color: #4c4c4c;}
 
 
 /* HTML EXAMPLE TITLE BARS */
-hljs:before {background: #6A0000; color: #ffffff;}
+hljs:before {background: #003160; color: #ffffff;}
 hljs {background: #363636;}
 
 
