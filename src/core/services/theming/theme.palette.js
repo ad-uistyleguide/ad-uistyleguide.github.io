@@ -443,7 +443,7 @@ angular.module('material.core.theming.palette', [])
     '200': '#a6a6a6',
     '300': '#818181',
     '400': '#666666',
-    '500': '#000000',
+    '500': '#4c4c4c',
     '600': '#454545',
     '700': '#3D3D3D',
     '800': '#363636',
@@ -451,7 +451,7 @@ angular.module('material.core.theming.palette', [])
     'A100': '#c7c7c7',
     'A200': '#a6a6a6',
     'A400': '#666666',
-    'A700': '#3D3D3D',
+    'A700': '#000000',
     'contrastDefaultColor': 'light',
     'contrastDarkColors': '',
     'contrastStrongLightColors': '50 100 200 300 400 500 A700'
