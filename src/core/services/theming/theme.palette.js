@@ -722,24 +722,24 @@ angular.module('material.core.theming.palette', [])
     'contrastDarkColors': '',
     'contrastStrongLightColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700'
   },
-    'ad-78be20': { /* Warning Saturated Red Pantone 1797 */
-    '50': '#EDF7E2',
-    '100': '#D5EBBA',
-    '200': '#BCDF90',
-    '300': '#A0D162',
-    '400': '#8CC741',
-    '500': '#78be20',
-    '600': '#6DAC1D',
-    '700': '#619A1A',
-    '800': '#558716',
-    '900': '#3E6310',
-    'A100': '#D5EBBA',
-    'A200': '#BCDF90',
-    'A400': '#8CC741',
-    'A700': '#619A1A',
+    'ad-fe5000': { /* Warning Saturated Red Pantone 1797 */
+    '50': '#FFE8DE',
+    '100': '#FFC9B0',
+    '200': '#FFA880',
+    '300': '#FE844C',
+    '400': '#FE6A26',
+    '500': '#fe5000',
+    '600': '#E74800',
+    '700': '#CE4100',
+    '800': '#B43800',
+    '900': '#842900',
+    'A100': '#FFC9B0',
+    'A200': '#FFA880',
+    'A400': '#FE6A26',
+    'A700': '#CE4100',
     'contrastDefaultColor': 'Light',
-    'contrastDarkColors': '',
-    'contrastStrongLightColors': '600 700 800 900 A100 A200 A400 A700'
+    'contrastDarkColors': '50 100 200 300 400 500 600 700 800 900 A100 A200 A400 A700',
+    'contrastStrongLightColors': ''
   }
 
 });

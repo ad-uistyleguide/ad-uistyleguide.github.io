@@ -647,7 +647,7 @@ ul.methods > li:first-child > *:first-child {
 
 
 /* SIDENAV */
-.docs-menu .md-button.active {color: #78be20; font-weight: 600 !important;}
+.docs-menu .md-button.active {color: #fe5000; font-weight: 600 !important;}
 .docs-logotype {text-indent: 0px !important;}
 md-sidenav md-toolbar.md-default-theme md-icon {display: none;}
 
@@ -675,7 +675,7 @@ a {
 
 
 /* TABS */
-md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #78be20;}
+md-tabs.md-default-theme.md-accent md-tabs-wrapper {background-color: #fe5000;}
 md-tabs.md-default-theme .md-tab[disabled] {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-tab-item:not([disabled]) {color: rgba(255,255,255,1);}
 md-tabs.md-default-theme.md-accent md-ink-bar {background-color: #ffffff;}
@@ -691,7 +691,7 @@ code:not(.highlight) {color: white; background-color: #4c4c4c !important;}
 
 
 /* HTML EXAMPLE TITLE BARS */
-hljs:before {background: #3E6310; color: #ffffff;}
+hljs:before {background: #842900; color: #ffffff;}
 hljs {background: #363636;}
 
 /* HTML JS EXAMPLES */
