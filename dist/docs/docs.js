@@ -724,8 +724,8 @@ DocsApp.constant('BUILDCONFIG', {
   "ngVersion": "1.3.15",
   "version": "0.9.0",
   "repository": "https://github.com/angular/material",
-  "commit": "a4361abadb4908f8c4d5888ef510ed128584cfe8",
-  "date": "2015-05-10 01:11:31 -0700"
+  "commit": "ef7572cd40e0082f35811a372422da460a2d262c",
+  "date": "2015-05-13 11:17:28 -0700"
 });
 
 (function() {
@@ -889,28 +889,6 @@ DocsApp.constant('BUILDCONFIG', {
 DocsApp
 .constant('COMPONENTS', [
   {
-    "name": "material.components.bottomSheet",
-    "type": "module",
-    "outputPath": "partials/api/material.components.bottomSheet/index.html",
-    "url": "api/material.components.bottomSheet",
-    "label": "material.components.bottomSheet",
-    "hasDemo": false,
-    "module": ".",
-    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
-    "docs": [
-      {
-        "name": "$mdBottomSheet",
-        "type": "service",
-        "outputPath": "partials/api/material.components.bottomSheet/service/$mdBottomSheet.html",
-        "url": "api/material.components.bottomSheet/service/$mdBottomSheet",
-        "label": "$mdBottomSheet",
-        "hasDemo": false,
-        "module": "material.components.bottomSheet",
-        "githubUrl": "https://github.com/angular/material/blob/master/src/components/bottomSheet/bottomSheet.js"
-      }
-    ]
-  },
-  {
     "name": "material.components.button",
     "type": "module",
     "outputPath": "partials/api/material.components.button/index.html",
@@ -929,6 +907,28 @@ DocsApp
         "hasDemo": true,
         "module": "material.components.button",
         "githubUrl": "https://github.com/angular/material/blob/master/src/components/button/button.js"
+      }
+    ]
+  },
+  {
+    "name": "material.components.bottomSheet",
+    "type": "module",
+    "outputPath": "partials/api/material.components.bottomSheet/index.html",
+    "url": "api/material.components.bottomSheet",
+    "label": "material.components.bottomSheet",
+    "hasDemo": false,
+    "module": ".",
+    "githubUrl": "https://github.com/angular/material/blob/master/src/components/./..js",
+    "docs": [
+      {
+        "name": "$mdBottomSheet",
+        "type": "service",
+        "outputPath": "partials/api/material.components.bottomSheet/service/$mdBottomSheet.html",
+        "url": "api/material.components.bottomSheet/service/$mdBottomSheet",
+        "label": "$mdBottomSheet",
+        "hasDemo": false,
+        "module": "material.components.bottomSheet",
+        "githubUrl": "https://github.com/angular/material/blob/master/src/components/bottomSheet/bottomSheet.js"
       }
     ]
   },

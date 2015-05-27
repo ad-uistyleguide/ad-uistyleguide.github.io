@@ -5,11 +5,11 @@ angular
       // Create list of font-icon names with color overrides
       var iconData = [
             {name: 'icon-home'        , color: "#0070CC" },
-            {name: 'icon-user-plus'   , color: "#660099" },
-            {name: 'icon-google-plus2', color: "#EF1D2D" },
-            {name: 'icon-youtube4'    , color:"#424242" },
+            {name: 'icon-user-plus'   , color: "#4c4c4c" },
+            {name: 'icon-google-plus2', color: "#0070cc" },
+            {name: 'icon-youtube4'    , color:"#cc0000" },
              // Use theming to color the font-icon
-            {name: 'icon-settings'    , color:"#000000"}//, theme:"md-warn md-hue-5"} ORIGINAL
+            {name: 'icon-settings'    , color:"#4c4c4c"}//, theme:"md-warn md-hue-5"} ORIGINAL
           ];
 
       // Create a set of sizes...

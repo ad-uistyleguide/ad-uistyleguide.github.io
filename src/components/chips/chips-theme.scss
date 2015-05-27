@@ -6,10 +6,10 @@ md-chips.md-THEME_NAME-theme {
     }
   }
   .md-chip {
-    background: '{{background-300}}';
+    background: '{{background-200}}';
     color: '{{background-800}}';
     &.md-focused {
-      background: '{{primary-color}}';
+      background: '{{primary-500}}';
       color: '{{primary-contrast}}';
       md-icon {
         color: '{{primary-contrast}}';
